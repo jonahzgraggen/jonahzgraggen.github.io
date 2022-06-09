@@ -1,0 +1,48 @@
+/*style sheet for personal blog*/
+
+h1, p {
+    color:#171bff;
+    padding-left: 45px;
+}
+
+.photo {
+    width: 300px;
+    height: 100%;
+}
+
+  /* The sidebar menu */
+    .sidenav {
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      width: 160px; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1; /*Stay on top*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px;
+      padding-left: 0px;
+      font-size: 12px;
+      display: flex;
+    }
+  
+  /* The navigation menu links */
+  .sidenav a, .sidenavigation {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color:#171bff;
+    /*display: block;*/
+  }
+
+
+.flex-container {
+    height: 140px;
+    padding: 16px;
+    border: 4px solid
+    display: flex;
+    flex-direction: row;
+  }
+
+.mainbody {
+    height: 200px;
+    padding: 16px;
+    border: 4px solid
+    display: flex;
+}
