@@ -6,9 +6,31 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Jonah Zgraggen</title>
-      <link rel="stylesheet" href="style2.css">
+      <!-- Hide CSS file link 
+        <link rel="stylesheet" href="style2.css">
+      -->
+      <style>
+        /* Style for the table of contents */
+        #toc {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+        }
+        #toc a {
+          color: #fff;
+          text-decoration: none;
+        }
+        #toc a:hover {
+          text-decoration: underline;
+        }
+      </style>
     </head>
-  
+
+
+    <!--
     <body>
       <div class="parent">
           <div class="child">
@@ -29,14 +51,27 @@
                   Email: j.zgraggen@queensu.ca
               </p>
               <p>
-                  Right now, I'm studying for a Master's degree in Management at Queen's University. 
-                  I study organization theory, which broadly means I try to understand all the weird
-                  things that happen when people work together. 
-              </p>
-              <p>
-                  Here you'll find some of my writing, projects I'm working on (like my great books project), and 
-                  the books I've read.
+                  Here you'll find some of my writing, projects I'm working on, and 
+                  my bookshelf.
               </p>
           </div>
       </div> 
-      </body> 
+      </body> -->
+
+  <body>
+    <div id="toc">
+      <a href="#about">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <h1 id="about">About Me</h1>
+    <p>Write your personal information here.</p>
+    <h1 id="education">Education</h1>
+    <p>Write your educational background here.</p>
+    <h1 id="skills">Skills</h1>
+    <p>Write your skills and expertise here.</p>
+    <h1 id="projects">Projects</h1>
+    <p>Write about your notable projects here.</p>
+  </body>
+</html>
