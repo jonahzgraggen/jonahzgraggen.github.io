@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Website</title>
+<style>
+  body {
+    background-color: #a5eaf3;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 19px
+  }
+
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+
+  nav a:hover {
+    color: #666;
+  }
+
+  body, main, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 50px;
+    max-width: 800px;
+    margin-left: 100px;
+    padding-top: 50px;
+    max-width: 1000px;
+    min-height: calc(100vh - 50px);
+  }
+
+  .description {
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: 100px;
+    padding-top: 25px;
+  }
+
+  .album-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .album-item {
+    margin-bottom: 10px;
+
+  }
+
+  .album-link {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .album-link:hover {
+    color: #666;
+  }
+
+  .photo {
+  width: 100%;
+  max-height: 700px; /* Set a maximum height for the images */
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+}
+.description {
+    margin-bottom: 20px;
+  }
+
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="writing.html">Writing</a>
+    <a href="index.html">Index</a>
+  </nav>
+  <section class="description">
+    <p><b>april 2022</b></p>
+    <p><a href="photos.html">go back</a></p>
+  </section>
+  <main class="container">
+    <img src="photos/april/april-19.jpg" alt="Photo 1" class="photo">
+    <img src="photos/april/april-05.jpg" alt="Photo 2" class="photo">
+    <img src="photos/april/april-13.jpg" alt="Photo 3" class="photo">
+    <img src="photos/april/april-12.jpg" alt="Photo 4" class="photo">
+    <img src="photos/april/april-03.jpg" alt="Photo 5" class="photo">
+    <img src="photos/april/april-08.jpg" alt="Photo 7" class="photo">
+    <img src="photos/april/april-18.jpg" alt="Photo 8" class="photo">
+    <img src="photos/april/april-16.jpg" alt="Photo 9" class="photo">
+    <img src="photos/april/april-11.jpg" alt="Photo 9" class="photo">
+    <img src="photos/april/april-17.jpg" alt="Photo 10" class="photo">
+    <img src="photos/april/april-02.jpg" alt="Photo 11" class="photo">
+    <img src="photos/april/april-09.jpg" alt="Photo 12" class="photo">
+    <img src="photos/april/april-10.jpg" alt="Photo 13" class="photo">
+    <img src="photos/april/april-15.jpg" alt="Photo 14" class="photo">
+    <img src="photos/april/april-14.jpg" alt="Photo 15" class="photo">
+    <img src="photos/april/april-01.jpg" alt="Photo 16" class="photo">
+    <img src="photos/april/april-04.jpg" alt="Photo 17" class="photo">
+    <img src="photos/april/april-01.jpg" alt="Photo 18" class="photo">
+    <img src="photos/april/april-16.jpg" alt="Photo 19" class="photo">
+    <img src="photos/april/april-18.jpg" alt="Photo 1" class="photo">
+  </main>
+  </body>
+  </html>
+</header>
