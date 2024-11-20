@@ -24,7 +24,7 @@
         }
 
         .nav-content {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -46,16 +46,19 @@
         main {
             margin-top: 100px;
             padding: 2rem;
-            max-width: 1200px;
+            max-width: 1400px;
             margin-left: auto;
             margin-right: auto;
         }
 
         .photo-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+            max-width: 800px; /* Set a max-width for the content */
+            margin: 2rem auto; /* Center the grid */
+        }
+
+        .photo-item {
+            width: 100%;
+            margin-bottom: 3rem;
         }
 
         .photo-item img {
@@ -74,12 +77,13 @@
         }
 
         .photo-info {
-            margin-top: 0.5rem;
+            margin-top: 0.8rem;
             font-size: 0.9rem;
             color: #666;
+            text-align: left; /* Keep the text left-aligned */
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 800px) {
             nav {
                 padding: 1rem;
             }
@@ -95,7 +99,8 @@
             }
 
             .photo-grid {
-                grid-template-columns: 1fr;
+                width: 100%;
+                padding: 0 1rem;
             }
         }
     </style>
